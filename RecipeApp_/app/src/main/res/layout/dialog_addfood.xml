@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/editNamefood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+
+        android:inputType="textPersonName"
+        android:hint="Tên món ăn muốn thêm"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+        android:id="@+id/editTimefood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Thời gian nấu"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edtNguyenLieu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Nguyên Liệu"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/edtCongThuc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Công Thức"
+        android:layout_marginStart="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        />
+
+
+</LinearLayout>
